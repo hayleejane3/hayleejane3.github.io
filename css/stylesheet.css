@@ -1,0 +1,97 @@
+body {
+	background-color: #f4f4f4;
+	font-family: "Source Sans Pro", sans-serif;
+	color: #666666;
+}
+
+.fixedwidth{
+	width:1090px;
+	margin:0 auto;
+}
+
+.menu-items-list {
+	margin: 30px 0 30px 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.menu-items-element {
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.menu-items-element a {
+	display: inline;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #DCD0D0;
+}
+
+.menu-items-element a:visited {
+	color: #DCD0D0;
+	text-decoration: none;
+}
+
+.menu-items-element a:hover {
+	text-decoration: underline;
+}
+
+.name-container {
+	width: 545px;
+	padding-top: 10em;
+	margin: 0;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myname {
+	font-family: "Cardo", "Times New Roman", Times, serif;
+	font-size: 60px;
+	color: #666666;
+	width: 500px;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+	margin: 0;
+}
+
+.image-container {
+	width: 545px;
+	float: right;
+	background-color: blue;
+	height: 500px;
+	background-image: url("../images/smile.jpg")
+}
+
+.links-container {
+	width: 545px;
+	margin-top: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+.links {
+
+}
+
+.single-link {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	display: inline-block;
+}
+
+#github-logo {
+	background-image: url("../images/github.png");
+	background-repeat: no-repeat;
+}
+
+#linkedin-logo {
+	background-image: url("../images/linkedin.png");
+	background-repeat: no-repeat;
+}

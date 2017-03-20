@@ -1,0 +1,15 @@
+.links {
+  .single-links {
+
+
+    #github-logo {
+      background-image: url('../images/github.png');
+      background-repeat: no-repeat;
+    }
+
+    #linkedin-logo {
+      background-image: url('../images/linkedin.png');
+      background-repeat: no-repeat;
+    }
+  }
+}
