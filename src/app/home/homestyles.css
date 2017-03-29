@@ -1,0 +1,53 @@
+
+.name-container {
+	width: 545px;
+	padding-top: 10em;
+	margin: 0;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myname {
+	font-family: "Cardo", "Times New Roman", Times, serif;
+	font-size: 60px;
+	color: #666666;
+	width: 500px;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+	margin: 0;
+}
+
+.image-container {
+	width: 545px;
+	float: right;
+	background-color: blue;
+	height: 500px;
+  margin-top: 15px;
+}
+
+.links-container {
+	width: 545px;
+	margin-top: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+.single-link {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	display: inline-block;
+}
+
+#github-logo {
+	background-image: url("../../resources/images/github.png");
+	background-repeat: no-repeat;
+}
+
+#linkedin-logo {
+	background-image: url("../../resources/images/linkedin.png");
+	background-repeat: no-repeat;
+}
