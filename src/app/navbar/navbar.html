@@ -1,14 +1,17 @@
 <ul class = "navbar-items-list">
-  <li class = "navbar-items-element">
-    <a routerLink = "/">Home</a>
+  <li class = "navbar-items-element" >
+    <a [routerLink] = "['/']" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">Home</a>
+  </li>
+  <li class = "navbar-items-element" >
+    <a [routerLink] = "['/about']" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">About</a>
+  </li>
+  <li class = "navbar-items-element" >
+    <a href = "https://drive.google.com/open?id=0B-HShTl4kqqIekctczhJWWtKMlE" target="_blank">Resume</a>
   </li>
   <li class = "navbar-items-element">
-    <a routerLink = "/about">About</a>
+    <a [routerLink] = "['/involvement']" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">Involvement</a>
   </li>
-  <li class = "navbar-items-element">
-    <a href = "https://drive.google.com/file/d/0B-HShTl4kqqITERCcjJJUnNlS1U/view?usp=sharing">Resume</a>
-  </li>
-  <li class = "navbar-items-element">
-    <a>Contact</a>
+  <li class = "navbar-items-element" >
+    <a href="mailto: haylee.jane3@gmail.com">Contact</a>
   </li>
 </ul>

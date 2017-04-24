@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
-import { NavbarComponent } from './navbar/navbar.component'
-import { HomeComponent } from './home/home.component'
 import { AboutComponent } from './about/about.component'
+import { HomeComponent } from './home/home.component'
+import { InvolvementComponent } from './involvement/involvement.component'
+import { NavbarComponent } from './navbar/navbar.component'
 
 
 @Component({

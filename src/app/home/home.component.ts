@@ -5,7 +5,8 @@ import { Component, Input } from '@angular/core';
   styleUrls : ['./homestyles.css']
 })
 
-export class HomeComponent  {
+export class HomeComponent {
+  constructor () {}
   @Input() name: string = 'HAYLEE &nbsp;JANE MONTEIRO';
 
   public githubUrl = "https://github.com/hayleejane3";

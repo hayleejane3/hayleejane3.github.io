@@ -1,45 +1,46 @@
+.home-content {
+	background-image: url("../../resources/images/homeBackground.jpg");
+	background-repeat: no-repeat;
+	height: 727px;
+}
 
 .name-container {
-	width: 545px;
-	padding-top: 10em;
-	margin: 0;
+	padding: 3em 0 1em 0;
+	margin: 0 0 0 -0.75em;
 	float: left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 #myname {
 	font-family: "Cardo", "Times New Roman", Times, serif;
 	font-size: 60px;
-	color: #666666;
+	color: #3C4145;
 	width: 500px;
-	border-width: 1px;
-	border-style: solid;
 	text-align: center;
 	margin: 0;
 }
 
-.image-container {
-	width: 545px;
-	float: right;
-	background-color: blue;
-	height: 500px;
-  margin-top: 15px;
-}
-
 .links-container {
-	width: 545px;
-	margin-top: 20px;
-	text-align: center;
 	display: inline-block;
+	float: left;
+	padding: 1em 1em 0 1.75em;
 }
 
-.single-link {
+.links-container a {
 	height: 50px;
 	width: 50px;
 	margin: 5px;
 	display: inline-block;
+}
+
+.links-container a:hover {
+	opacity: 0.6;
+}
+
+.links-container a,
+.links-container a:hover {
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
 }
 
 #github-logo {
