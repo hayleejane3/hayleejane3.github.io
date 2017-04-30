@@ -3,8 +3,7 @@
  * Adjust as necessary for your application needs.
  */
 (function (global) {
-  System.config({
-    // map tells the System loader where to look for things
+  // map tells the System loader where to look for things
   var map = {
     'app': 'app',
     '@angular': 'node_modules/@angular',
