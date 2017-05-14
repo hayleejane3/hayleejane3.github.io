@@ -30,11 +30,11 @@ export class CarouselImpl  {
   @Input() public cateogory: number;
 
   //The time to show the next photo
-  private NextPhotoInterval: number = 5000;
+  public NextPhotoInterval: number = 5000;
   //Looping or not
-  private noLoopSlides: boolean = true;
+  public noLoopSlides: boolean = true;
   //Photos
-  private slides: Array<any> = [];
+  public slides: Array<any> = [];
 
   constructor() {
     this.addNewSlide();
