@@ -1,0 +1,54 @@
+.home-content {
+	background-image: url("../../assets/images/homeBackground.jpg");
+	background-repeat: no-repeat;
+	height: 727px;
+}
+
+.name-container {
+	padding: 3em 0 1em 0;
+	margin: 0 0 0 -0.75em;
+	float: left;
+}
+
+#myname {
+	font-family: "Cardo", "Times New Roman", Times, serif;
+	font-size: 60px;
+	color: #3C4145;
+	width: 500px;
+	text-align: center;
+	margin: 0;
+}
+
+.links-container {
+	display: inline-block;
+	float: left;
+	padding: 1em 1em 0 1.75em;
+}
+
+.links-container a {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.links-container a:hover {
+	opacity: 0.6;
+}
+
+.links-container a,
+.links-container a:hover {
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+#github-logo {
+	background-image: url("../../assets/images/github.png");
+	background-repeat: no-repeat;
+}
+
+#linkedin-logo {
+	background-image: url("../../assets/images/linkedin.png");
+	background-repeat: no-repeat;
+}
