@@ -40,12 +40,12 @@ export class CarouselImpl  {
 
   private addNewSlide() {
     this.slides.push (
-      {image: "./../../assets/images/qwcc-group.jpg", text: 'A Group Picture'},
-      {image: "./../../assets/images/qwcc-ceo.jpg", text: 'Hearing from the CEO'},
-      {image: "./../../assets/images/qwcc-patent.jpg", text: 'The Qualcomm Patent Wall'},
-      {image: "./../../assets/images/qwcc-hackathon.jpg", text: 'Hacking with Middle School girls'},
-      {image: "./../../assets/images/qwcc-interview.jpg", text: 'Mock Phone Interviews'},
-      {image: "./../../assets/images/qwcc-beach.jpg", text: 'Beach Bonfire Farewell Party'}
+      {image: "assets/images/qwcc-group.jpg", text: 'A Group Picture'},
+      {image: "assets/images/qwcc-ceo.jpg", text: 'Hearing from the CEO'},
+      {image: "assets/images/qwcc-patent.jpg", text: 'The Qualcomm Patent Wall'},
+      {image: "assets/images/qwcc-hackathon.jpg", text: 'Hacking with Middle School girls'},
+      {image: "assets/images/qwcc-interview.jpg", text: 'Mock Phone Interviews'},
+      {image: "assets/images/qwcc-beach.jpg", text: 'Beach Bonfire Farewell Party'}
     );
   }
 
