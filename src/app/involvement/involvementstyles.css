@@ -12,7 +12,7 @@ a, a:visited {
   text-align: center;
 }
 
-#ghc-content {
+#conf-content {
   width: 50%;
   float: left;
 }
@@ -20,5 +20,15 @@ a, a:visited {
 #ghc-image {
   width: 50%;
   float: right;
+  text-align: center;
+}
+
+#gwe-image {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#gwe-android-image {
   text-align: center;
 }

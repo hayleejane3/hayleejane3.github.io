@@ -1,7 +1,7 @@
 body {
-	background-color: #f4f4f4;
+	background-color: #242424;
 	font-family: "Source Sans Pro", sans-serif;
-	color: #464E51;
+	color: #ABA6A6;
 	/*width: 1920px;*/
 	margin: 0 auto;
 	text-align: center;
@@ -31,7 +31,7 @@ body a, body a:visited {
   display: inline-block;
   margin-left: 11em;
   padding: 2.5em 1em;
-  font-size: 1.1em;
+  font-size: 1.2em;
 	text-align: left;
 	width: 100%;
 }

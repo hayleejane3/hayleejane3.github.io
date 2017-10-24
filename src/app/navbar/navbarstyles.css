@@ -31,7 +31,7 @@
 
 .navbar-items-element a:not(.active),
 .navbar-items-element a:visited:not(.active) {
-	color: #444C4C;
+	color: #525252;
 	text-decoration: none;
 }
 
